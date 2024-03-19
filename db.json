@@ -1,0 +1,157 @@
+{
+  "exam": [
+    {
+      "id": 1,
+      "examName": "JS",
+      "examDuration": 30,
+      "examQuestions": [
+        {
+          "QuestionTitle": "What is JavaScript?",
+          "questionAnswers": [
+            "A programming language",
+            "A type of coffee",
+            "A musical instrument"
+          ],
+          "correctAnswer": "A programming language",
+          "degree": 1
+        },
+        {
+          "QuestionTitle": "What does HTML stand for?",
+          "questionAnswers": [
+            "Hypertext Markup Language",
+            "High-Tech Modular Language",
+            "Hyperlink and Text Markup Language"
+          ],
+          "correctAnswer": "Hypertext Markup Language",
+          "degree": 2
+        },
+        {
+          "QuestionTitle": "Which symbol is used for comments in JavaScript?",
+          "questionAnswers": ["//", "/* */", "<!-- -->"],
+          "correctAnswer": "//",
+          "degree": 3
+        },
+        {
+          "QuestionTitle": "What is the output of '2' + 2 in JavaScript?",
+          "questionAnswers": ["22", "4", "It will cause an error"],
+          "correctAnswer": "22",
+          "degree": 1
+        },
+        {
+          "QuestionTitle": "What does CSS stand for?",
+          "questionAnswers": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style Sheets"
+          ],
+          "correctAnswer": "Cascading Style Sheets",
+          "degree": 2
+        },
+        {
+          "QuestionTitle": "Which of the following is not a JavaScript data type?",
+          "questionAnswers": ["Number", "Array", "Dictionary"],
+          "correctAnswer": "Dictionary",
+          "degree": 3
+        },
+        {
+          "QuestionTitle": "What is the purpose of the 'typeof' operator in JavaScript?",
+          "questionAnswers": [
+            "To find the type of a variable",
+            "To convert a variable to a string",
+            "To create a new variable"
+          ],
+          "correctAnswer": "To find the type of a variable",
+          "degree": 1
+        },
+        {
+          "QuestionTitle": "What does JSON stand for?",
+          "questionAnswers": [
+            "JavaScript Object Notation",
+            "JavaScript Ordered Notation",
+            "JavaScript Overly-Nested"
+          ],
+          "correctAnswer": "JavaScript Object Notation",
+          "degree": 2
+        },
+        {
+          "QuestionTitle": "Which HTML tag is used to define an unordered list?",
+          "questionAnswers": ["<ul>", "<ol>", "<li>"],
+          "correctAnswer": "<ul>",
+          "degree": 3
+        },
+        {
+          "QuestionTitle": "What is the result of 5 + '5' in JavaScript?",
+          "questionAnswers": ["55", "10", "It will cause an error"],
+          "correctAnswer": "55",
+          "degree": 1
+        },
+        {
+          "QuestionTitle": "What is the purpose of the 'this' keyword in JavaScript?",
+          "questionAnswers": [
+            "To refer to the current object",
+            "To declare a new variable",
+            "To execute a function"
+          ],
+          "correctAnswer": "To refer to the current object",
+          "degree": 2
+        },
+        {
+          "QuestionTitle": "Which of the following is not a valid JavaScript variable name?",
+          "questionAnswers": ["myVar", "2var", "_var"],
+          "correctAnswer": "2var",
+          "degree": 3
+        },
+        {
+          "QuestionTitle": "What does AJAX stand for?",
+          "questionAnswers": [
+            "Asynchronous JavaScript and XML",
+            "Advanced JavaScript and XML",
+            "All JavaScript and XHR"
+          ],
+          "correctAnswer": "Asynchronous JavaScript and XML",
+          "degree": 1
+        },
+        {
+          "QuestionTitle": "Which CSS property is used to control the spacing between elements?",
+          "questionAnswers": ["margin", "padding", "border"],
+          "correctAnswer": "margin",
+          "degree": 2
+        },
+        {
+          "QuestionTitle": "What is the purpose of the 'let' keyword in JavaScript?",
+          "questionAnswers": [
+            "To declare a block-scoped variable",
+            "To declare a global variable",
+            "To declare a constant"
+          ],
+          "correctAnswer": "To declare a block-scoped variable",
+          "degree": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "examName": "PHP",
+      "examDuration": 40
+    },
+    {
+      "id": 3,
+      "examName": "VueJs",
+      "examDuration": 50
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "StudentOne",
+      "password": "1234",
+      "role": "student"
+    },
+    {
+      "id": 2,
+      "name": "admin",
+      "password": "1234",
+      "role": "admin"
+    }
+  ]
+}

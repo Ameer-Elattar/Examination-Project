@@ -1,5 +1,5 @@
 <template>
-  <RouterView></RouterView>
+  <section></section>
 </template>
 
 <script>
