@@ -6,6 +6,7 @@
       "examDuration": 30,
       "examQuestions": [
         {
+          "questionNumber": 1,
           "QuestionTitle": "What is JavaScript?",
           "questionAnswers": [
             "A programming language",
@@ -16,6 +17,7 @@
           "degree": 1
         },
         {
+          "questionNumber": 2,
           "QuestionTitle": "What does HTML stand for?",
           "questionAnswers": [
             "Hypertext Markup Language",
@@ -26,18 +28,21 @@
           "degree": 2
         },
         {
+          "questionNumber": 3,
           "QuestionTitle": "Which symbol is used for comments in JavaScript?",
           "questionAnswers": ["//", "/* */", "<!-- -->"],
           "correctAnswer": "//",
           "degree": 3
         },
         {
+          "questionNumber": 4,
           "QuestionTitle": "What is the output of '2' + 2 in JavaScript?",
           "questionAnswers": ["22", "4", "It will cause an error"],
           "correctAnswer": "22",
           "degree": 1
         },
         {
+          "questionNumber": 5,
           "QuestionTitle": "What does CSS stand for?",
           "questionAnswers": [
             "Cascading Style Sheets",
@@ -48,12 +53,14 @@
           "degree": 2
         },
         {
+          "questionNumber": 6,
           "QuestionTitle": "Which of the following is not a JavaScript data type?",
           "questionAnswers": ["Number", "Array", "Dictionary"],
           "correctAnswer": "Dictionary",
           "degree": 3
         },
         {
+          "questionNumber": 7,
           "QuestionTitle": "What is the purpose of the 'typeof' operator in JavaScript?",
           "questionAnswers": [
             "To find the type of a variable",
@@ -64,6 +71,7 @@
           "degree": 1
         },
         {
+          "questionNumber": 8,
           "QuestionTitle": "What does JSON stand for?",
           "questionAnswers": [
             "JavaScript Object Notation",
@@ -74,18 +82,21 @@
           "degree": 2
         },
         {
+          "questionNumber": 9,
           "QuestionTitle": "Which HTML tag is used to define an unordered list?",
           "questionAnswers": ["<ul>", "<ol>", "<li>"],
           "correctAnswer": "<ul>",
           "degree": 3
         },
         {
+          "questionNumber": 10,
           "QuestionTitle": "What is the result of 5 + '5' in JavaScript?",
           "questionAnswers": ["55", "10", "It will cause an error"],
           "correctAnswer": "55",
           "degree": 1
         },
         {
+          "questionNumber": 11,
           "QuestionTitle": "What is the purpose of the 'this' keyword in JavaScript?",
           "questionAnswers": [
             "To refer to the current object",
@@ -96,12 +107,14 @@
           "degree": 2
         },
         {
+          "questionNumber": 12,
           "QuestionTitle": "Which of the following is not a valid JavaScript variable name?",
           "questionAnswers": ["myVar", "2var", "_var"],
           "correctAnswer": "2var",
           "degree": 3
         },
         {
+          "questionNumber": 13,
           "QuestionTitle": "What does AJAX stand for?",
           "questionAnswers": [
             "Asynchronous JavaScript and XML",
@@ -112,12 +125,14 @@
           "degree": 1
         },
         {
+          "questionNumber": 14,
           "QuestionTitle": "Which CSS property is used to control the spacing between elements?",
           "questionAnswers": ["margin", "padding", "border"],
           "correctAnswer": "margin",
           "degree": 2
         },
         {
+          "questionNumber": 15,
           "QuestionTitle": "What is the purpose of the 'let' keyword in JavaScript?",
           "questionAnswers": [
             "To declare a block-scoped variable",
@@ -132,12 +147,14 @@
     {
       "id": 2,
       "examName": "PHP",
-      "examDuration": 40
+      "examDuration": 40,
+      "examQuestions": []
     },
     {
       "id": 3,
       "examName": "VueJs",
-      "examDuration": 50
+      "examDuration": 50,
+      "examQuestions": []
     }
   ],
   "user": [

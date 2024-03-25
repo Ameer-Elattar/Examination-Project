@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import logincomponent from "../components/logincomponent.vue";
 import adminviewcomponent from "../components/adminviewcomponent.vue";
 import studentviewcomponent from "../components/studentviewcomponent";
+import selectedExamComponent from "../components/selectedExamComponent.vue";
 
 const routes = [
   {
@@ -16,6 +17,10 @@ const routes = [
   {
     path: "/student",
     component: studentviewcomponent,
+  },
+  {
+    path: "/exam/:id",
+    component: selectedExamComponent,
   },
 ];
 

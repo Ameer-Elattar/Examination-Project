@@ -1,9 +1,17 @@
 <template>
-  <section></section>
+  <section class="container my-3">
+    <studentExamsComponent />
+  </section>
 </template>
 
 <script>
-export default {};
+import studentExamsComponent from "./studentExamsComponent.vue";
+export default {
+  data: () => ({}),
+  components: {
+    studentExamsComponent,
+  },
+};
 </script>
 
 <style></style>
