@@ -1,7 +1,7 @@
 {
   "exam": [
     {
-      "id": 1,
+      "id": "1",
       "examName": "JS",
       "examDuration": 30,
       "examQuestions": [
@@ -30,14 +30,22 @@
         {
           "questionNumber": 3,
           "QuestionTitle": "Which symbol is used for comments in JavaScript?",
-          "questionAnswers": ["//", "/* */", "<!-- -->"],
+          "questionAnswers": [
+            "//",
+            "/* */",
+            "<!-- -->"
+          ],
           "correctAnswer": "//",
           "degree": 3
         },
         {
           "questionNumber": 4,
           "QuestionTitle": "What is the output of '2' + 2 in JavaScript?",
-          "questionAnswers": ["22", "4", "It will cause an error"],
+          "questionAnswers": [
+            "22",
+            "4",
+            "It will cause an error"
+          ],
           "correctAnswer": "22",
           "degree": 1
         },
@@ -55,7 +63,11 @@
         {
           "questionNumber": 6,
           "QuestionTitle": "Which of the following is not a JavaScript data type?",
-          "questionAnswers": ["Number", "Array", "Dictionary"],
+          "questionAnswers": [
+            "Number",
+            "Array",
+            "Dictionary"
+          ],
           "correctAnswer": "Dictionary",
           "degree": 3
         },
@@ -84,14 +96,22 @@
         {
           "questionNumber": 9,
           "QuestionTitle": "Which HTML tag is used to define an unordered list?",
-          "questionAnswers": ["<ul>", "<ol>", "<li>"],
+          "questionAnswers": [
+            "<ul>",
+            "<ol>",
+            "<li>"
+          ],
           "correctAnswer": "<ul>",
           "degree": 3
         },
         {
           "questionNumber": 10,
           "QuestionTitle": "What is the result of 5 + '5' in JavaScript?",
-          "questionAnswers": ["55", "10", "It will cause an error"],
+          "questionAnswers": [
+            "55",
+            "10",
+            "It will cause an error"
+          ],
           "correctAnswer": "55",
           "degree": 1
         },
@@ -109,7 +129,11 @@
         {
           "questionNumber": 12,
           "QuestionTitle": "Which of the following is not a valid JavaScript variable name?",
-          "questionAnswers": ["myVar", "2var", "_var"],
+          "questionAnswers": [
+            "myVar",
+            "2var",
+            "_var"
+          ],
           "correctAnswer": "2var",
           "degree": 3
         },
@@ -127,7 +151,11 @@
         {
           "questionNumber": 14,
           "QuestionTitle": "Which CSS property is used to control the spacing between elements?",
-          "questionAnswers": ["margin", "padding", "border"],
+          "questionAnswers": [
+            "margin",
+            "padding",
+            "border"
+          ],
           "correctAnswer": "margin",
           "degree": 2
         },
@@ -145,30 +173,134 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "examName": "PHP",
       "examDuration": 40,
       "examQuestions": []
     },
     {
-      "id": 3,
-      "examName": "VueJs",
+      "id": "3",
+      "examName": "C#",
       "examDuration": 50,
       "examQuestions": []
+    },
+    {
+      "id": "5",
+      "examName": "NodeJs",
+      "examDuration": 50,
+      "examQuestions": []
+    },
+    {
+      "id": "8650",
+      "examName": "test",
+      "examDuration": 10,
+      "examQuestions": [
+        {
+          "questionNumber": 1,
+          "QuestionTitle": "what ",
+          "questionAnswers": [
+            "i",
+            "he",
+            "she"
+          ],
+          "correctAnswer": "i",
+          "degree": "3"
+        },
+        {
+          "questionNumber": 2,
+          "QuestionTitle": "whi",
+          "questionAnswers": [
+            "they",
+            "we",
+            "it"
+          ],
+          "correctAnswer": "it",
+          "degree": "3"
+        }
+      ]
+    },
+    {
+      "id": "3fcc",
+      "examName": "test2",
+      "examDuration": 5,
+      "examQuestions": [
+        {
+          "questionNumber": 1,
+          "QuestionTitle": "how many titens shifter",
+          "questionAnswers": [
+            "9",
+            "10",
+            "4"
+          ],
+          "correctAnswer": "9",
+          "degree": "3"
+        },
+        {
+          "questionNumber": 2,
+          "QuestionTitle": "who killed marco",
+          "questionAnswers": [
+            "annie",
+            "connie",
+            "armin"
+          ],
+          "correctAnswer": "annie",
+          "degree": "1"
+        },
+        {
+          "questionNumber": 3,
+          "QuestionTitle": "did eren become free",
+          "questionAnswers": [
+            "no",
+            "yes",
+            "depends"
+          ],
+          "correctAnswer": "no",
+          "degree": "3"
+        },
+        {
+          "questionNumber": 4,
+          "QuestionTitle": "what is aot rating ",
+          "questionAnswers": [
+            "10",
+            "5",
+            "1"
+          ],
+          "correctAnswer": "10",
+          "degree": "2"
+        }
+      ]
     }
   ],
   "user": [
     {
-      "id": 1,
+      "id": "2",
       "name": "StudentOne",
       "password": "1234",
-      "role": "student"
+      "role": "student",
+      "grades": {
+        "test": 6,
+        "test2": 7
+      }
     },
     {
-      "id": 2,
+      "id": "1",
       "name": "admin",
       "password": "1234",
       "role": "admin"
+    },
+    {
+      "id": "3",
+      "name": "ameer",
+      "password": "1234",
+      "role": "student",
+      "grades": {}
+    },
+    {
+      "id": "4",
+      "name": "ahmed",
+      "password": "1234",
+      "role": "student",
+      "grades": {}
     }
   ]
 }

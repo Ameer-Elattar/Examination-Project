@@ -1,6 +1,6 @@
 <template>
+  <template>{{ getExam($route.params.id) }}</template>
   <section>
-    <template>{{ getExam($route.params.id) }}</template>
     <div
       class="container bg-light d-flex justify-content-evenly my-2 rounded-3 p-2 shadow"
     >
@@ -47,17 +47,25 @@
 </template>
 
 <script>
+import { useMainStore } from "@/stores/useMainStore";
 export default {
   data: () => ({
+    store: useMainStore(),
     isExamStarted: false,
     isResultShown: false,
     examResult: 0,
     examDetails: {},
   }),
+  created() {
+    if (!this.store.checkAuthentication()) {
+      this.$router.push("/");
+    }
+  },
   methods: {
     async getExam(_id) {
       const response = await fetch(`http://localhost:5000/exam/${_id}`);
       this.examDetails = await response.json();
+      // console.log(this.examDetails);
     },
     startTimer() {
       let timer = document.querySelector(".timer");
@@ -98,15 +106,27 @@ export default {
       let degree = 0;
       for (let i = 0; i < allAnswers.length; i++) {
         if (allAnswers[i] === this.examDetails.examQuestions[i].correctAnswer) {
-          degree += this.examDetails.examQuestions[i].degree;
+          degree += parseInt(this.examDetails.examQuestions[i].degree);
         }
       }
       this.examResult = degree;
       this.isResultShown = true;
       this.isExamStarted = false;
-      console.log(degree);
-      // console.log(allAnswers[0]);
-      // console.log(this.examDetails.examQuestions[0].correctAnswer);
+      const updatedData = this.store.userData[0];
+      updatedData.grades[`${this.examDetails.examName}`] = degree;
+      fetch(`http://localhost:5000/user/${this.store.userData[0].id}`, {
+        method: "PUT",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(updatedData),
+      })
+        .then((res) => {
+          console.log(res);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
     },
   },
 };
